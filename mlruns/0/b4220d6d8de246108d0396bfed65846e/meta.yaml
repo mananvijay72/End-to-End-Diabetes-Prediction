@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b4220d6d8de246108d0396bfed65846e/artifacts
+end_time: 1724857585220
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b4220d6d8de246108d0396bfed65846e
+run_name: DecisionTreeClassifier
+run_uuid: b4220d6d8de246108d0396bfed65846e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724857580653
+status: 3
+tags: []
+user_id: Manan

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/6b93f3a715824ed191ad5fa4feebd520/artifacts
+end_time: 1724857580572
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6b93f3a715824ed191ad5fa4feebd520
+run_name: SVC
+run_uuid: 6b93f3a715824ed191ad5fa4feebd520
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724857280182
+status: 3
+tags: []
+user_id: Manan

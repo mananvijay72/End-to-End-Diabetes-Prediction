@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/aefac80b10c04663b059794bafdf8c93/artifacts
+end_time: 1724857244629
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aefac80b10c04663b059794bafdf8c93
+run_name: RandomForestClassifier
+run_uuid: aefac80b10c04663b059794bafdf8c93
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724857216311
+status: 3
+tags: []
+user_id: Manan

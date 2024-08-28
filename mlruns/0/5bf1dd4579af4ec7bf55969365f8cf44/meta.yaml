@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/5bf1dd4579af4ec7bf55969365f8cf44/artifacts
+end_time: 1724857265457
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5bf1dd4579af4ec7bf55969365f8cf44
+run_name: XGBClassifier
+run_uuid: 5bf1dd4579af4ec7bf55969365f8cf44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724857256357
+status: 3
+tags: []
+user_id: Manan
