@@ -1,0 +1,25 @@
+name: Deploy Streamlit App
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8' 
+
+      - name: Install dependencies
+
+        run: |
+          pip install -r requirements.txt
+      - name: Deploy to Streamlit Cloud
+        uses: streamlit/actions-deploy@v1
+        with:
+          streamlit_cloud_url: end-to-end-diabetes-prediction-csviqdf2ujy2u9abk2zadq
+          streamlit_script_path: application.py
