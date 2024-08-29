@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/1ead1e54cba748c1a3208800094cc421/artifacts
+end_time: 1724869638151
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1ead1e54cba748c1a3208800094cc421
+run_name: unequaled-tern-545
+run_uuid: 1ead1e54cba748c1a3208800094cc421
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724869631105
+status: 3
+tags: []
+user_id: Manan

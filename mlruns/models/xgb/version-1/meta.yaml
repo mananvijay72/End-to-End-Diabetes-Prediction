@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1724917954318
+current_stage: None
+description: ''
+last_updated_timestamp: 1724917954318
+name: xgb
+run_id: 3a2b887c31094c24848a175314d16156
+run_link: ''
+source: file:///D:/projects/End%20to%20End%20Diabetes%20Prediction/End-to-End-Diabetes-Prediction/mlruns/659105598566457759/3a2b887c31094c24848a175314d16156/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///D:/projects/End%20to%20End%20Diabetes%20Prediction/End-to-End-Diabetes-Prediction/mlruns/659105598566457759/3a2b887c31094c24848a175314d16156/artifacts/model
+user_id: null
+version: 1

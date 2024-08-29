@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/32b76e306b004ddd90f982e940637cbc/artifacts
+end_time: 1724868954474
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 32b76e306b004ddd90f982e940637cbc
+run_name: KNeighborsClassifier
+run_uuid: 32b76e306b004ddd90f982e940637cbc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724868908939
+status: 4
+tags: []
+user_id: Manan

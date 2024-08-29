@@ -12,8 +12,13 @@ def train_pipeline(data_path: str):
 
     df = ingest_data(data_path)
     X_train, X_test, y_train, y_test = transform(df)
-    trained_model, params = train_model(X_train, y_train)
+    logging.info("Data transformation completed")
+    logging.info("Training model")
+    trained_model = train_model(X_train, y_train)
+    logging.info("Model training completed")
+    logging.info("Evaluating model")
     accuracy, precision, recall, f1 = evaluation(trained_model, X_test, y_test)
+    print("MODEL: ", trained_model.__class__.__name__)
     print("ACCURACY: ", accuracy)
     print("PRECISION: ", precision)
     print("RECALL: ", recall)
@@ -22,9 +27,8 @@ def train_pipeline(data_path: str):
 
 
     mlflow.set_experiment("Diabetese Prediction 1")
-    with mlflow.start_run(run_name="RandomForest"):
-        if params != {}:
-            mlflow.log_params("params", params)
+    with mlflow.start_run(run_name=trained_model.__class__.__name__):
+
         mlflow.log_metric("accuracy", accuracy)
         mlflow.log_metric("precision", precision)
         mlflow.log_metric("recall", recall)

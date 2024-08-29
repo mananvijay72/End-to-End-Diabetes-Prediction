@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/projects/End%20to%20End%20Diabetes%20Prediction/End-to-End-Diabetes-Prediction/mlruns/659105598566457759/9fb5848c48f84266a92199fb3d144552/artifacts
+end_time: 1724868144405
+entry_point_name: ''
+experiment_id: '659105598566457759'
+lifecycle_stage: active
+run_id: 9fb5848c48f84266a92199fb3d144552
+run_name: RandomForestClassifier
+run_uuid: 9fb5848c48f84266a92199fb3d144552
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724868139694
+status: 3
+tags: []
+user_id: Manan

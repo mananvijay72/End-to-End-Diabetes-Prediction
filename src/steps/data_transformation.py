@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 from src.components.data_transformation import DataCleaning, PreProcessor
 from sklearn.model_selection import train_test_split
-
+from imblearn.over_sampling import SMOTE
 
 
 def transform(data: pd.DataFrame) -> Tuple[
@@ -30,8 +30,10 @@ def transform(data: pd.DataFrame) -> Tuple[
         preprocessor = PreProcessor()
 
         features, target = preprocessor.preprocess(clean_data)
+        balancing = SMOTE(random_state=42)
+        features, target = balancing.fit_resample(features, target)
 
-        X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.3, random_state=42)
+        X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.3, random_state=42, stratify=target)
 
         logging.info("Data transformation completed")
 

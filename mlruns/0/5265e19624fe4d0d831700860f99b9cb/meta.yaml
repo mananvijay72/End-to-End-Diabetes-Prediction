@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/5265e19624fe4d0d831700860f99b9cb/artifacts
+end_time: 1724869930652
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5265e19624fe4d0d831700860f99b9cb
+run_name: mysterious-skink-10
+run_uuid: 5265e19624fe4d0d831700860f99b9cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724869919930
+status: 3
+tags: []
+user_id: Manan

@@ -1,0 +1,10 @@
+digest: ef86f3e7
+name: dataset
+profile: '{"features_shape": [5925, 9], "features_size": 53325, "features_nbytes":
+  426600}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float64\", \"shape\": [-1, 9]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "Manan", "mlflow.source.name": "d:\\projects\\End
+  to End Diabetes Prediction\\End-to-End-Diabetes-Prediction\\myenv\\lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

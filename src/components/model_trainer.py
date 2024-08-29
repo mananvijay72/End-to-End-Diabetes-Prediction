@@ -7,6 +7,7 @@ import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import RandomizedSearchCV
+from xgboost import XGBClassifier
 
 class RandomForest:
 
@@ -34,6 +35,31 @@ class RandomForest:
             logging.error("Random Forest ClassifierModel trainig faled")
             raise e
 
+class XGBoost:
+
+    def base_model(self):
+        model = XGBClassifier()
+        return model
+
+    def train(self, X_train, y_train, param_grid = {}):
+        '''
+        Trains the data on a XGBoost model
+        Args:
+            X_train. y_train: data to train model
+            param_grid: parameters for hypermater tuning
+        return:
+            clf: a XGBosstor classifier
+        '''
+
+        try:
+            clf = XGBClassifier(**param_grid)
+            clf.fit(X_train, y_train)
+            logging.info("Model trained")
+            return clf
+        
+        except Exception as e:
+            logging.error("XGboost classifier trainig faled")
+            raise e
 
 class HyperparameterTuner:
 

@@ -8,7 +8,6 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.compose import ColumnTransformer
-from imblearn.over_sampling import SMOTE
 
 
 
@@ -77,11 +76,9 @@ class PreProcessor:
                     ('cat', OneHotEncoder(), ['gender','smoking_history'])
                 ])
             
-            balancing = SMOTE(random_state=42)
 
             X = preprocessor.fit_transform(X)
 
-            X, y = balancing.fit_resample(X,y)
 
             #saving preprocessor
             with open("artifacts/preprocessor.pkl", "wb") as handle:

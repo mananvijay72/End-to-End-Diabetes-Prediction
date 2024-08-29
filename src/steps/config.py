@@ -1,6 +1,6 @@
 
 class ModelConfig:
-    model = "RandomForestClassifier"
+    model = "XGBClassifier"
     tuning = "False"
     parameter_grid = {
     'n_estimators': [25, 50, 100, 150],
