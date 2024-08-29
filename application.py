@@ -19,9 +19,7 @@ input = pd.DataFrame({"gender": [gender], "age": [age], "hypertension": [hyperte
 # Displaying the input values
 
 
-# Placeholder for future model predictions or further processing
-st.write("### Next Steps")
-st.write("Use these inputs for further processing or prediction in your model.")
+
 
 #loading model and preprocessor
 
