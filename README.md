@@ -1,3 +1,43 @@
+# Diabetes Prediction Project
+
+## Project Overview
+This project focuses on predicting diabetes using machine learning techniques. The project involved data cleaning, balancing the dataset, performing Exploratory Data Analysis (EDA), and applying predictive analytics using seven different models. After model selection, hyperparameter tuning was conducted to achieve an F1 score of 0.97. The entire process was tracked using MLflow, and the final model was deployed on Streamlit Cloud using a CI/CD pipeline with GitHub Actions.
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Modeling and Evaluation](#modeling-and-evaluation)
+- [Hyperparameter Tuning](#hyperparameter-tuning)
+- [Model Tracking with MLflow](#model-tracking-with-mlflow)
+- [Deployment with Streamlit](#deployment-with-streamlit)
+- [CI/CD Pipeline](#cicd-pipeline)
+- [How to Run the Project](#how-to-run-the-project)
+- [Conclusion](#conclusion)
+
+## Data Cleaning and Preprocessing
+- Handled missing values and outliers.
+- Scaled features using standardization.
+- Balanced the dataset using [SMOTE](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html) to address class imbalance.
+
+## Exploratory Data Analysis (EDA)
+- Conducted EDA to understand feature distributions and relationships.
+- Visualized data using libraries such as `matplotlib` and `seaborn`.
+- Identified key features influencing diabetes prediction.
+
+## Modeling and Evaluation
+- Applied seven different machine learning models, including:
+  - Logistic Regression
+  - Random Forest
+  - Support Vector Machine (SVM)
+  - k-Nearest Neighbors (k-NN)
+  - Gradient Boosting
+  - XGBoost
+  - Neural Networks
+- Evaluated models using metrics such as Accuracy, Precision, Recall, and F1 Score.
+
+
+
 Project Title: Diabetes Prediction with Streamlit Deployment
 
 Description:
